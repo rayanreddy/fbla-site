@@ -1,0 +1,47 @@
+body{
+
+    text-align: center;
+    font-size: 21px;
+    font-family: "Monaco", Monaco, sans-serif;
+    background-color:White;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  background-color:#bbb;
+}
+
+.column1 {
+  float: left;
+  width: 33.33%;
+  background-color:#ccc;
+}
+
+.column2 {
+  float: left;
+  width: 33.33%;
+  background-color:#ddd;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.image2 {
+    //max-height:235px;
+    max-width: 5000px;
+    overflow: hidden;
+}
+
+.text1 {
+    margin: 20px;
+    font-size: 30px;
+    text-align: left;
+}
+
+.button {
+    size: 20
+}
