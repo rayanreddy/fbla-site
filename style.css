@@ -57,20 +57,93 @@ h1 {
   text-align: center;
 }
 
-.pic img{
-  float: left;
-  position: absolute;
-  left: 16%;
+@media only screen and (max-device-width: 1099px) {
+  .pic img {
+    float: left;
+    position: relative;
+    left: 15%;
+    max-height: 700px;
+    max-width: 350px;
+  }
 }
 
-.pic p {
-  position: absolute;
-  left: 51%;
-  top: 10%;
-  text-align: center;
-  color: black;
-  background: white;
-  font: 20px Verdana, sans-serif;
+@media only screen and (max-device-width: 700px) {
+  .pic img {
+    float: left;
+    position: relative;
+    left: 15%;
+    max-height: 500px;
+    max-width: 250px;
+  }
+}
+
+@media only screen and (max-device-width: 300px) {
+  .pic img {
+    float: left;
+    position: relative;
+    left: 15%;
+    max-height: 300px;
+    max-width: 150px;
+  }
+}
+
+@media only screen and (min-device-width: 1101px) {
+  .pic img {
+    float: left;
+    position: relative;
+    left: 15%;
+    max-height: 875px;
+    max-width: 432px;
+  }
+}
+
+@media only screen and (min-device-width: 1501px) {
+  .pic img {
+    float: left;
+    position: relative;
+    left: 15%;
+    max-height: 1000px;
+    max-width: 500px;
+  }
+}
+
+@media only screen and (min-device-width: 1100px) {
+  .bioText p {
+    float: left;
+    position: absolute;
+    left: 51%;
+    top: 10%;
+    text-align: center;
+    color: black;
+    background: white;
+    font: 20px Verdana, sans-serif;
+  }
+}
+
+@media only screen and (max-device-width: 1099px) {
+  .biotext p {
+    float: left;
+    position: absolute;
+    left: 70%;
+    top: 5%;
+    text-align: center;
+    color: black;
+    background: white;
+    font: 15px Verdana, sans-serif;
+  }
+}
+
+@media only screen and (max-device-width: 400px) {
+  .biotext p {
+    float: left;
+    position: absolute;
+    left: 70%;
+    top: 5%;
+    text-align: center;
+    color: black;
+    background: white;
+    font: 12px Verdana, sans-serif;
+  }
 }
 
 .row {
