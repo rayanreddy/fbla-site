@@ -4,8 +4,31 @@
     <meta charset="UTF-8">
     <title>Photography and Collage Services</title>
     <link href="style1.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">Photography</a>
+            </div>
+            <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Portfolio
+                <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                <li><a href="urban.html">Urban Photography</a></li>
+                <li><a href="nature.html">Nature Photography</a></li>
+                <li><a href="landscape.html">Landscape Photography</a></li>
+                </ul>
+            </li>
+            <li><a href="form.html">Store</a></li>
+            </ul>
+        </div>
+    </nav>
     <div class="">
         <h2>Book an Appointment</h2>
     </div>
@@ -27,8 +50,6 @@
         <input type="radio" id="package3" name="packages" value="50">
         <label for="package3">$300 for 50</label><br><br>
         <input type = "submit" value = "Submit">
-
-
     </form>
 </body>
 </html>
