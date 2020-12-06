@@ -1,26 +1,38 @@
 body{
 
+    margin-left: 0px;
     text-align: center;
-    font-size: 21px;
+    font-size: 25px;
     font-family: "Monaco", Monaco, sans-serif;
     background-color:White;
 }
 
 .column {
+    margin-left: 10px;
+    font-size: 30px;
+    font-family: "Monaco", Monaco, sans-serif;
   float: left;
-  width: 33.33%;
+  width: 32%;
   background-color:#bbb;
 }
 
 .column1 {
-  float: left;
-  width: 33.33%;
+  margin-left: 10px;
+      font-size: 30px;
+      font-family: "Monaco", Monaco, sans-serif;
+    float: left;
+    width: 32%;
+
   background-color:#ccc;
 }
 
 .column2 {
-  float: left;
-  width: 33.33%;
+  margin-left: 10px;
+      font-size: 30px;
+      font-family: "Monaco", Monaco, sans-serif;
+    float: left;
+    width: 32%;
+
   background-color:#ddd;
 }
 
