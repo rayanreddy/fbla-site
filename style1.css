@@ -1,3 +1,8 @@
 body {
-  margin: 500;
+  margin: 200;
+  text-align: center;
+  font-size: 21px;
+  font-family: "Monaco", Monaco, sans-serif;
+  background-color: LightSkyBlue;
+
 }
